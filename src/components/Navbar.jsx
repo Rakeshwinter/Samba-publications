@@ -1,7 +1,6 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
-import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
@@ -10,7 +9,7 @@ import "./Navbar.css";
 function CustomNavbar() {
   return (
     <>
-      {["sm", "md", "lg", "xl", "xxl"].map((expand) => (
+      {["xxl"].map((expand) => (
         <Navbar key={expand} expand={expand} className=" mb-3 ">
           <Container fluid>
             <Navbar.Brand
@@ -71,6 +70,11 @@ function CustomNavbar() {
                   </Nav.Link>
                   <Nav.Link href="#action1" className="nav-text">
                     Contact Us
+                  </Nav.Link>
+                  <Nav.Link href="#action1" className="nav-text">
+                    <Button variant="danger" className="d-flex align-item-center custom-btn">
+                      <span className="me-2">Sign in</span> <span><i class="bi bi-person-circle"></i></span>
+                    </Button>
                   </Nav.Link>
                 </Nav>
               </Offcanvas.Body>
