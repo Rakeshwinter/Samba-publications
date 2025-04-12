@@ -1,0 +1,50 @@
+:root {
+    --btn-color:#F35F24;
+    --btn-color-hover:#df5823; /* or any valid color value */
+}
+
+.brand-logo {
+    width: 148px;
+    height: 105px;
+  }
+  
+  .brand-text {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 17px;
+    text-align: center;
+    line-height: 0.5;
+    margin-top: 4px;
+    letter-spacing: 0.2px;
+  }
+  
+  .nav-text{
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.2px;
+  }
+  .custom-btn {
+    background-color: var(--btn-color);
+    border-radius: 50px;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 600;
+    color: white;
+    border: none;
+  }
+  .custom-btn:hover{
+    background-color: var(--btn-color-hover);
+  }
+
+  .custom-like-btn, .custom-cart-btn{
+    border-radius: 50%;
+    width:40px ;
+    height: 40px;
+  }
+  .custom-cart-btn{
+    background-color:#435058 ;
+
+  }

@@ -1,0 +1,118 @@
+{
+  "hash": "934fe306",
+  "configHash": "690af5b3",
+  "lockfileHash": "0ff56b23",
+  "browserHash": "b7c7e0c4",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "7f6ade46",
+      "needsInterop": true
+    },
+    "react-bootstrap/Button": {
+      "src": "../../node_modules/react-bootstrap/esm/Button.js",
+      "file": "react-bootstrap_Button.js",
+      "fileHash": "2b3cea53",
+      "needsInterop": false
+    },
+    "react-bootstrap/Col": {
+      "src": "../../node_modules/react-bootstrap/esm/Col.js",
+      "file": "react-bootstrap_Col.js",
+      "fileHash": "aa6632ff",
+      "needsInterop": false
+    },
+    "react-bootstrap/Container": {
+      "src": "../../node_modules/react-bootstrap/esm/Container.js",
+      "file": "react-bootstrap_Container.js",
+      "fileHash": "68d72913",
+      "needsInterop": false
+    },
+    "react-bootstrap/Form": {
+      "src": "../../node_modules/react-bootstrap/esm/Form.js",
+      "file": "react-bootstrap_Form.js",
+      "fileHash": "107cfacb",
+      "needsInterop": false
+    },
+    "react-bootstrap/Nav": {
+      "src": "../../node_modules/react-bootstrap/esm/Nav.js",
+      "file": "react-bootstrap_Nav.js",
+      "fileHash": "e94ccc77",
+      "needsInterop": false
+    },
+    "react-bootstrap/Navbar": {
+      "src": "../../node_modules/react-bootstrap/esm/Navbar.js",
+      "file": "react-bootstrap_Navbar.js",
+      "fileHash": "44380580",
+      "needsInterop": false
+    },
+    "react-bootstrap/NavDropdown": {
+      "src": "../../node_modules/react-bootstrap/esm/NavDropdown.js",
+      "file": "react-bootstrap_NavDropdown.js",
+      "fileHash": "0ec74277",
+      "needsInterop": false
+    },
+    "react-bootstrap/Offcanvas": {
+      "src": "../../node_modules/react-bootstrap/esm/Offcanvas.js",
+      "file": "react-bootstrap_Offcanvas.js",
+      "fileHash": "6876a66c",
+      "needsInterop": false
+    },
+    "react-bootstrap/Row": {
+      "src": "../../node_modules/react-bootstrap/esm/Row.js",
+      "file": "react-bootstrap_Row.js",
+      "fileHash": "0068c584",
+      "needsInterop": false
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "4957bbdd",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-J3QYTP7A": {
+      "file": "chunk-J3QYTP7A.js"
+    },
+    "chunk-UW6D6233": {
+      "file": "chunk-UW6D6233.js"
+    },
+    "chunk-76RW7NSA": {
+      "file": "chunk-76RW7NSA.js"
+    },
+    "chunk-LVATVHAO": {
+      "file": "chunk-LVATVHAO.js"
+    },
+    "chunk-FG72RR5M": {
+      "file": "chunk-FG72RR5M.js"
+    },
+    "chunk-BTPJLGLP": {
+      "file": "chunk-BTPJLGLP.js"
+    },
+    "chunk-ZQI77E4T": {
+      "file": "chunk-ZQI77E4T.js"
+    },
+    "chunk-QOVZGY7A": {
+      "file": "chunk-QOVZGY7A.js"
+    },
+    "chunk-KDSTLSK6": {
+      "file": "chunk-KDSTLSK6.js"
+    },
+    "chunk-IK6CMDAM": {
+      "file": "chunk-IK6CMDAM.js"
+    },
+    "chunk-L3ZLE5PF": {
+      "file": "chunk-L3ZLE5PF.js"
+    },
+    "chunk-T6SWRSM2": {
+      "file": "chunk-T6SWRSM2.js"
+    },
+    "chunk-XOPVAXB5": {
+      "file": "chunk-XOPVAXB5.js"
+    },
+    "chunk-5WQJO2FO": {
+      "file": "chunk-5WQJO2FO.js"
+    }
+  }
+}
