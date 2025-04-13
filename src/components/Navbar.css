@@ -36,7 +36,7 @@
     color: white;
     border: none;
   }
-  .custom-btn:hover{
+  .custom-btn:hover,.shop-btn:hover{
     background-color: var(--btn-color-hover);
   }
 
@@ -48,4 +48,17 @@
   .custom-cart-btn{
     background-color:#435058 ;
 
+  }
+
+  @media (max-width: 550px) {
+    .custom-show-above-550 {
+      display: none !important;
+    }
+    .nav-text{
+      margin-right:0px;
+    }
+    .brand-logo {
+      width: 118.4px;  /* 148 * 0.8 */
+      height: 84px;     /* 105 * 0.8 */
+    }
   }

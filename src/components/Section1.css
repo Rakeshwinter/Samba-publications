@@ -1,0 +1,121 @@
+.custom-carousel {
+    width: 100%;
+  }
+  
+.carousel-image {
+    width: 55%;
+    height: auto;
+    object-fit: cover;
+  }
+.carousel-control-prev,
+.carousel-control-next {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(93, 87, 87, 0.5); /* semi-transparent background */
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 1;
+}
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: rgba(180, 178, 178, 0.8); /* darker on hover */
+}
+.carousel-div{
+    padding: 0 60px;
+}
+
+.carousel-div h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    letter-spacing: 0.2px;
+}
+
+
+.more-btn, .shop-btn{
+    width: 150px;
+    border-radius: 50px;
+}
+
+.shop-btn{
+    background-color: var(--btn-color);
+}
+
+
+@media (max-width: 1200px) {
+    .carousel-div {
+      flex-direction: column-reverse;
+    }
+    .carousel-image {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+  
+    .title-row {
+      display: none; /* Hide title & Book-6 */
+    }
+  
+    .button-row {
+      margin-bottom: 1rem;
+      flex-direction: row;
+      justify-content: center;
+    }
+    
+  }
+  @media (max-width: 600px) {
+
+    .carousel-image {
+      width: 95vw;
+      height: auto;
+      object-fit: cover;
+    }
+    .more-btn, .shop-btn{
+      width: 100px;
+      font-size: 15px;
+      margin-top: 12px;
+  }
+  }
+/* Column 2 */
+
+  .form-container {
+    max-width: 400px;
+    margin: auto;
+  }
+  .form-link a{
+    color: black;
+    text-decoration: none;
+    line-height: 0;
+  }
+
+  .form-link span{
+    font-family: 'poppins';
+    font-weight: 500;
+    font-size: 28px;
+    letter-spacing: 0.2px;
+    line-height: 0;
+    color: black;
+    text-decoration: underline;
+    
+  }
+
+.form-div{
+    border: 0.5px solid rgba(95, 95, 95, 0.809);
+    border-radius: 30px;
+    padding: 20px;
+    font-family:'poppins' ;
+    font-size: 16px;
+    color:rgba(95, 95, 95, 0.809);
+}
+.form-title{
+    font-family: 'poppins';
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0.2px;
+}
+
+.form-btn{
+    font-size: 16px;
+    color:rgba(227, 227, 227, 0.809);
+}

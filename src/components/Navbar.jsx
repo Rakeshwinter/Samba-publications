@@ -15,13 +15,14 @@ function CustomNavbar() {
             <Navbar.Brand
               href="#"
               className="d-flex flex-column align-items-center"
+              md={12}
             >
               <img
                 src="/images/logo.png"
                 className="brand-logo d-inline-block align-top"
                 alt="Samba Logo"
               />
-              <span className="brand-text">
+              <span className="brand-text  custom-show-above-550">
                 Samba Publishing Company Pvt Ltd
               </span>
             </Navbar.Brand>
@@ -38,7 +39,7 @@ function CustomNavbar() {
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
-                <Nav className="justify-content-end align-items-center flex-grow-1 pe-5">
+                <Nav className="justify-content-end justify-content-md-end align-items-center flex-grow-1 pe-5">
                   {/* These items go into the menu on small screens */}
                   <Nav.Link href="#action1" className="nav-text">
                     <Button variant="danger" className="custom-btn">
@@ -72,8 +73,14 @@ function CustomNavbar() {
                     Contact Us
                   </Nav.Link>
                   <Nav.Link href="#action1" className="nav-text">
-                    <Button variant="danger" className="d-flex align-item-center custom-btn">
-                      <span className="me-2">Sign in</span> <span><i class="bi bi-person-circle"></i></span>
+                    <Button
+                      variant="danger"
+                      className="d-flex align-item-center custom-btn"
+                    >
+                      <span className="me-2">Sign in</span>{" "}
+                      <span>
+                        <i class="bi bi-person-circle"></i>
+                      </span>
                     </Button>
                   </Nav.Link>
                 </Nav>
