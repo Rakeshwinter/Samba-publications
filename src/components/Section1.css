@@ -34,7 +34,7 @@
 
 
 .more-btn, .shop-btn{
-    width: 150px;
+    width: 120px;
     border-radius: 50px;
 }
 
@@ -56,12 +56,10 @@
     .title-row {
       display: none; /* Hide title & Book-6 */
     }
-  
-    .button-row {
-      margin-bottom: 1rem;
-      flex-direction: row;
-      justify-content: center;
-    }
+    .more-btn, .shop-btn{
+      width: 170px;
+      border-radius: 50px;
+  }
     
   }
   @media (max-width: 600px) {

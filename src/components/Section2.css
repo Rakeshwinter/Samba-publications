@@ -1,0 +1,73 @@
+.section2-box {
+  background-color: rgba(244, 244, 244, 0.839);
+}
+
+.image-flex-s2 {
+  width: 90px;
+  height: 110px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgba(199, 199, 199, 0.818);
+}
+.collection-book-s2 {
+  height: 10rem;
+}
+.circle-s2 {
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  border: 2px solid rgba(199, 199, 199, 0.818);
+  background-color: rgba(199, 199, 199, 0.818);
+  margin: 0 auto;
+}
+
+.book-btn-s2 {
+  width: fit-content;
+}
+
+.book-btn-s2:hover .circle-flex-s2 {
+  margin: 20px 0 10px 0;
+}
+.book-btn-s2:hover .circle-s2 {
+  border: 2px solid rgb(255, 255, 255);
+  background-color: var(--btn-color);
+}
+.book-btn-s2:hover .image-flex-s2 {
+  border: 2px solid var(--btn-color);
+  background-color: rgba(211, 211, 211, 0.707);
+}
+:root{
+    --search-height:50px;
+}
+.box-s2 {
+  width: 90%;
+  height: var(--search-height);
+  background: linear-gradient(
+    to left,
+    #eafaef 0%,
+    #eeeeee 54%,
+    #f2f4d1 77%,
+    #e6e5d3 100%
+  );
+
+  border-radius: 50px;
+  padding: 0;
+  font-family: "urbanist";
+  font-size: 20px;
+  letter-spacing: 0.2px;
+}
+.form-btn-s2 {
+  font-size: 15px;
+  line-height: 0;
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  margin: 0 10px 0 0;
+}
+.search-bar-s2 {
+  height: var(--search-height);
+  border-radius: 50px;
+  margin: 0;
+  background-color: transparent;
+  border: 0;
+}

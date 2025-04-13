@@ -25,7 +25,7 @@ function CusCarousel() {
                 <p className="text-end">Book-6</p>
               </Col>
             </Row>
-            <Row className=" w-100 button-row">
+            <Row className=" w-100">
               <Col>
                 <Button variant="light" className="more-btn">More</Button>
               </Col>
