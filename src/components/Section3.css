@@ -1,0 +1,24 @@
+.arrow-left-s3 ,.arrow-right-s3 {
+    width:50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.arrow-right-s3{
+    background-color: var(--btn-color);
+}
+
+.arrow-right-s3:hover{
+    background-color: var(--btn-color-hover);
+}
+
+.scroll-container-s3 {
+    overflow-x: auto;
+    scrollbar-width: none; 
+    -ms-overflow-style: none;  
+  }
+  
+  .scroll-container-s3::-webkit-scrollbar {
+    display: none; 
+  }
+  
