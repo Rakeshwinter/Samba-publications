@@ -1,0 +1,46 @@
+.bookCards{
+    width: 250px;
+    background-color: white;
+    font-family:Urbanist;
+}
+
+.bookCards-image{
+    width:250px;
+}
+
+
+.rating-btn{
+    width: 80px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: var(--btn-color);
+    font-size: 18px;
+    color: white;
+    
+}
+
+.rating-btn i{
+    margin-right: 10px;
+}
+
+.total-review{
+    color: rgb(152, 152, 152);
+    font-size: 20px;
+}
+
+.book-title-flex span{
+    color: rgb(152, 152, 152);
+    font-size: 15px;
+}
+
+.book-title-flex h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.add-to-cart-btn{
+    border-radius: 50px;
+    height: 50px;
+    background-color: #435058;
+    font-size: 20px;
+}
