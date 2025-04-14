@@ -1,11 +1,12 @@
 .bookCards{
-    width: 250px;
+    width: 200px;
     background-color: white;
     font-family:Urbanist;
 }
 
 .bookCards-image{
-    width:250px;
+    width:200px;
+    border-radius: 20px;
 }
 
 

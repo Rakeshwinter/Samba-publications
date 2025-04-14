@@ -1,0 +1,16 @@
+.secondbookCards{
+    width: 500px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 20px;
+    font-family: Urbanist;
+    padding: 20px;
+}
+
+.w-100{
+    width: 100%;
+}
+
+
+.progress-bar.bg-custom {
+    background-color: #F35F24 !important;
+  }
